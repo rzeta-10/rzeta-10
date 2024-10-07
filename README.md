@@ -31,12 +31,6 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="35" alt="css3 logo"  />
 </div>
 
-###
-
-<img src="https://raw.githubusercontent.com/rzeta-10/rzeta-10/output/snake.svg" alt="Snake animation" />
-
-###
-
 <div align="center">
   <img src="https://profile-counter.glitch.me/rzeta-10/count.svg?"  />
 </div>
