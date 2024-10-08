@@ -1,0 +1,37 @@
+name: Generate Snake Game
+
+on:
+  # Run workflow on every push to the repository
+  push:
+    branches:
+    - master
+  # Schedule it to run at specific times
+  schedule:
+    - cron: "0 0 * * *" # This means it will run every day at midnight
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Generate Snake Game from contribution graph
+        uses: Platane/snk@v2
+        with:
+          # Required - output file name to generate the snake
+          github_user_name: rzeta-10
+          output: dist/snake.svg
+
+      - name: Commit the Snake Game
+        run: |
+          git config --local user.name "your-username"
+          git config --local user.email "your-email"
+          git add dist/snake.svg
+          git commit -m "Generate snake animation"
+          git push
+
+      - name: Upload to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
