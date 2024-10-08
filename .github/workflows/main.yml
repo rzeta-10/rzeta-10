@@ -24,8 +24,8 @@ jobs:
 
       - name: Commit the Snake Game
         run: |
-          git config --local user.name "your-username"
-          git config --local user.email "your-email"
+          git config --local user.name "rzeta-10"
+          git config --local user.email "cs22b1093@iiitdm.ac.in"
           git add dist/snake.svg
           git commit -m "Generate snake animation"
           git push
