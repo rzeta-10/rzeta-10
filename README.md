@@ -2,14 +2,11 @@
 <p align="center">🚀 Trying to build solutions, one line of code at a time 📊💻<br>🔍 Passionate about data science, engineering, and system design.</p>
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/rohan-linkedin">
+  <a href="https://www.linkedin.com/in/rohangblr">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
-  <a href="mailto:rohan.email@example.com">
+  <a href="mailto:rohangblr@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/rohan-twitter">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </div>
 
