@@ -12,7 +12,6 @@
 
 ---
 
-
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rzeta-10&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=en&hide_border=false&order=1" height="150" alt="stats graph" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=rzeta-10&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false&order=2" height="150" alt="languages graph" />
@@ -34,7 +33,6 @@
 
 ---
 
-###
 <div align="center">
   <img src="https://github.com/rzeta-10/rzeta-10/blob/output/github-contribution-grid-snake.svg" alt="snake game" />
 </div>
