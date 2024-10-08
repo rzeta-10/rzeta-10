@@ -3,9 +3,9 @@ name: Generate Snake Game
 on:
   push:
     branches:
-    - main  # Change to "master" if that's your default branch
+      - main  # or master, depending on your default branch
   schedule:
-    - cron: "0 0 * * *" # This means it will run every day at midnight
+    - cron: "0 0 * * *"  # Runs every day at midnight
 
 jobs:
   build:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
-      
+
       - name: Generate Snake Game from contribution graph
         uses: Platane/snk@v2
         with:
-          github_user_name: rzeta-10  # Replace with your username
-          output: dist/snake.svg
-      
+          github_user_name: rzeta-10  # Replace with your GitHub username
+          outputs: dist/snake.svg  # Fix: 'outputs' instead of 'output'
+
       - name: Commit the Snake Game
         run: |
           git config --local user.name "rzeta-10"
@@ -27,11 +27,9 @@ jobs:
           git add dist/snake.svg
           git commit -m "Generate snake animation"
           git push
-      
+
       - name: Upload to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          # Optionally add this line to ensure GitHub Pages deploys to gh-pages
-          publish_branch: gh-pages
