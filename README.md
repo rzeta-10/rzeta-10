@@ -30,15 +30,3 @@
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge" height="35" alt="bootstrap logo" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="35" alt="css3 logo" />
 </div>
-
----
-
-<div align="center">
-  <img src="https://github.com/rzeta-10/rzeta-10/blob/output/github-contribution-grid-snake.svg" alt="snake game" />
-</div>
-
----
-
-<div align="center">
-  <img src="https://profile-counter.glitch.me/rzeta-10/count.svg?" alt="profile views" />
-</div>
