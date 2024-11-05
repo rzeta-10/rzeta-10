@@ -27,3 +27,8 @@
   <img src="https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=for-the-badge" height="35" alt="bootstrap logo" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" height="35" alt="css3 logo" />
 </div>
+
+<h2 align="center">🎮 Play Snake Game!</h2>
+<div align="center">
+  <iframe src="https://snake-game.io/" width="400" height="400" style="border: none;"></iframe>
+</div>
