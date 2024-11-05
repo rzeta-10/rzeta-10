@@ -10,8 +10,8 @@
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rzeta-10&show_icons=true&theme=radical" alt="GitHub Stats" height="200" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzeta-10&layout=compact&theme=radical" alt="Top languages" height="200" />
+  <img src="https://github-readme-stats.vercel.app/api?username=rzeta-10&show_icons=true&theme=radical" alt="GitHub Stats" height="100" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzeta-10&layout=compact&theme=radical" alt="Top languages" height="100" />
 </p>
 
 ---
