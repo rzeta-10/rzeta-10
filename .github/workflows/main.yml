@@ -24,7 +24,11 @@ jobs:
         id: snake-gif-dark
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          outputs: dist/github-contribution-grid-snake-dark.svg
+          palette: github-dark
+
+      - name: List dist folder contents for debugging
+        run: ls -R dist
 
       - name: Upload Snake Animation Artifacts
         uses: actions/upload-artifact@v4
