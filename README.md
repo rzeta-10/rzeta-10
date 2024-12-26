@@ -30,4 +30,12 @@
 
 ---
 
-![Snake animation](https://github.com/eagrundy/eagrundy/blob/output/github-contribution-grid-snake.svg)
+<div align="center">
+  <img src="https://github.com/rzeta-10/rzeta-10/blob/main/dist/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</div>
+
+<div align="center">
+  <img src="https://profile-counter.glitch.me/rzeta-10/count.svg" alt="Visitor Count" />
+</div>
+
+
