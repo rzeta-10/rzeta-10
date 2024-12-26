@@ -31,7 +31,7 @@
 ---
 
 <div align="center">
-  <img src="https://github.com/rzeta-10/rzeta-10/blob/main/dist/github-contribution-grid-snake.svg" alt="Snake animation"/>
+  <img src="https://github.com/rzeta-10/rzeta-10/blob/main/dist/github-contribution-grid-snake-dark.svg" alt="Snake Animation Dark Mode">
 </div>
 
 <div align="center">
