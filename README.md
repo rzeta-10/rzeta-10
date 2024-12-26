@@ -30,9 +30,9 @@
 
 ---
 
-<p align="center">
-  <img src="https://github.com/rzeta-10/rzeta-10/blob/main/dist/github-contribution-grid-snake-dark.svg" alt="Snake Animation (Dark Theme)">
-</p>
+<div align="center">
+  <img src="https://github.com/rzeta-10/rzeta-10/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake animation"/>
+</div>
 
 <div align="center">
   <img src="https://profile-counter.glitch.me/rzeta-10/count.svg" alt="Visitor Count" />
