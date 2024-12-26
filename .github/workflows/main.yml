@@ -7,17 +7,21 @@ on:
 
 jobs:
   snake:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
+    runs-on: ubuntu-latest # Will auto-upgrade to ubuntu-24.04 when available
 
-      - uses: Platane/snk@v3
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Generate Snake Animation
+        uses: Platane/snk@v3
         id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: dist/github-contribution-grid-snake.svg
 
-      - uses: actions/upload-artifact@v3
+      - name: Upload Snake Animation Artifact
+        uses: actions/upload-artifact@v4
         with:
           name: snake-animation
           path: dist/github-contribution-grid-snake.svg
