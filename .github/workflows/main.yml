@@ -7,19 +7,24 @@ on:
 
 jobs:
   snake:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Generate Snake Animation
+      - name: Generate Snake Animation (Light Theme)
         uses: Platane/snk@v3
-        id: snake-gif
+        id: snake-gif-light
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Generate Snake Animation (Dark Theme)
+        uses: Platane/snk@v3
+        id: snake-gif-dark
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Upload Snake Animation Artifacts
         uses: actions/upload-artifact@v4
@@ -30,7 +35,7 @@ jobs:
       - name: Push to GitHub
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update snake animation"
+          commit_message: "Update snake animation (light and dark themes)"
           branch: main
           file_pattern: dist/github-contribution-grid-snake*.svg
         env:
