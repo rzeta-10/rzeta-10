@@ -4,19 +4,6 @@
   🔍 Passionate about data science, engineering, and system design.
 </p>
 
-<div align="center">
-  <a href="mailto:rohangblr@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</div>
-
----
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rzeta-10&show_icons=true&theme=tokyonight&hide_border=true&border_radius=12" alt="GitHub Stats" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rzeta-10&layout=compact&theme=tokyonight&hide_border=true&border_radius=12" alt="Top languages" height="160" />
-</p>
-
 ---
 
 ### Languages
