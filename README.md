@@ -1,7 +1,7 @@
 <h2 align="center">👋 Hi there, I'm Rohan</h2>
 <p align="center">
   🚀 Trying to build solutions, one line of code at a time 📊💻<br>
-  🔍 Passionate about data science, engineering, and system design.
+  🔍 Passionate about backend, AI, low-level engineering, and system design.
 </p>
 
 ---
